@@ -25,10 +25,10 @@ export const DEFAULT_BOX_SHADOW = 'shadow-sm shadow-gray-900/5';
 const BUTTON_CONFIG = {
     [VARIANTS.PRIMARY]: {
         background: {
-            default: 'violet-100',
-            hover: 'violet-100',
-            active: 'violet-100',
-            disabled: 'violet-100',
+            default: 'primary-600',
+            hover: 'primary-700',
+            active: 'primary-600',
+            disabled: 'primary-200',
         },
         border: {
             default: 'primary-600',

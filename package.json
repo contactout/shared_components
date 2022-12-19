@@ -36,7 +36,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "shared-components",
+  "name": "contactout-shared-components",
   "author": "Karthic Ashokan",
   "module": "dist/shared-components.esm.js",
   "size-limit": [
