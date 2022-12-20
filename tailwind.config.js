@@ -3,6 +3,13 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}', './src/components/**/*.tsx', './stories/*'],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ['Inter'],
+      },
+      boxShadow: {
+        input: '0 0 0 3px #6552FF33',
+        'input-error': '0 0 0 3px #E0282833',
+      },
       colors: {
         white: '#FFFFFF',
         gray: {

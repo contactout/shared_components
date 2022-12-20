@@ -1,0 +1,96 @@
+const theme = {
+    font: {
+        size: {
+            normal: 14,
+            small: 12,
+        },
+    },
+    colors: {
+        black: '#110D1D',
+        white: '#fff',
+        main: {
+            extralight: '#E8EFFE',
+            light: '#988BFF',
+            normal: '#6552FF',
+            normalLight: '#3222B1',
+            normalLightest: '#e0dcff',
+            dark: '#4334b3',
+            darker: '#231780',
+            darkest: '#1F1280',
+        },
+        gray: {
+            extralight: 'rgb(183 183 183 / 17%)',
+            lightest: '#F9FAFB',
+            light: '#c9c9c9',
+            normal: '#7a7a7a',
+            dark: '#3d3d3d',
+            darker: '#303030',
+            darkest: '#343554',
+            g50: '#FAFAFA',
+            g100: '#F4F4F5',
+            g200: '#E4E4E7',
+            g300: '#D1D1D6',
+            g400: '#A0A0AB',
+            g500: '#70707B',
+            g600: '#51525C',
+            g700: '#3F3F46',
+            g900: '#18181B',
+            neutral50: '#F9FAFB',
+            neutral500: '#667085',
+        },
+        yellow: {
+            light: '#FEF9F1',
+            normal: '#FFF3DE',
+            dark: '#FEDFA5',
+        },
+        red: {
+            light: '#fa6e70',
+            normal: '#F84C4F',
+            dark: '#bd4244',
+            darker: '#7d2728',
+        },
+        blue: {
+            light: '#F5F9FF',
+            normal: '#256CFF',
+            dark: '',
+        },
+        linkedinBlue: {
+            lighter: '#006CFF1A',
+            light: '#006CFF1A',
+            normal: '#006CFF',
+        },
+        orange: {
+            light: '#ffda73',
+            normal: '#fcba03',
+            dark: '#c99400',
+        },
+        green: {
+            lighter: '#F9FEFA',
+            light: 'rgba(23, 209, 93, 0.15)',
+            normal: '#17D15D',
+            dark: '#18732D',
+        },
+        purple: {
+            light: '#E4E0FF',
+            normal: '#A093FF',
+            dark: '',
+        },
+    },
+    border: {
+        primary: '#D1D1D6',
+        hover: '#6552FF',
+        lightHover: '#B8AFFF',
+        normal: '#C8CBDB',
+        outline: '#D0D5DD',
+    },
+    fontSize: {
+        xs: ['12px', '16px'],
+        sm: ['14px', '20px'],
+        base: ['16px', '24px'],
+        lg: ['18px', '28px'],
+        xl: ['20px', '28px'],
+        '2xl': ['24px', '32px'],
+    },
+};
+
+export default theme;
