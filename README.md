@@ -2,7 +2,7 @@
 
 This repository was created to enable sharing of React components between our various projects
 - `contactout_website` can import and use components directly
-- `extension_app` will have to install the `@contactout/contactout-components` npm package
+- `extension_app` will have to install the `contactout-shared-components` npm package
 
 ## Getting Started
 
@@ -18,7 +18,7 @@ Import the Button component:
 import { TextInput } from 'contactout-shared-components';
  ```
 
-You can then render the `Button` component like any other React component in JSX.
+You can then render the `TextInput` component like any other React component in JSX.
 
 -----
 
