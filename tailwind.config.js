@@ -37,6 +37,10 @@ module.exports = {
           700: '#3222B1',
           800: '#1F1280',
           900: '#11075C',
+          DEFAULT: '#6552FF',
+          hover: '#4E3ED5',
+          active: '#3222B1',
+          disabled: '#6552FF',
         },
         error: {
           25: '#FFFBFA',
