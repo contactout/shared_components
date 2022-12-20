@@ -9,22 +9,30 @@ This repository was created to enable sharing of React components between our va
 Install this package:
 
  ```shell
- npm add @contactout/contactout-components@latest
+ npm install contactout-shared-components
  ```
 
 Import the Button component:
 
  ```js
- import { Button } from "@contactout/contactout-components";
+import { TextInput } from 'contactout-shared-components';
  ```
 
 You can then render the `Button` component like any other React component in JSX.
 
 -----
 
+
+### To start storybook
+ ```console
+yarn install
+yarn build-storybook
+yarn storybook
+ ```
+
 ### To publish a new version of the package:
 - First make the changes required
-- Update the version (in `shared/contactout-components/package.json`)
+- Update the version (in `shared-componends/package.json`)
 
  ```console
 cd shared/contactout-components
